@@ -4,4 +4,15 @@
     left:0;
     top:0;
     z-index:-1;
+    background-blend-mode: screen;
 }
+
+#DWQo {
+    background-image: linear-gradient(to right bottom, #36558f, #0073a7, #008ea0, #00a47c, #6bb34d);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 95vh;
+}
+
+/* https://coolors.co/ffde66-6eb34d-36558f-1d2330-fdfdfd */
+/* https://mycolor.space/gradient?ori=to+right+bottom&hex=%2336558F&hex2=%236BB34D&sub=1 */
