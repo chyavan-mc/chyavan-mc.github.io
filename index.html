@@ -3,15 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>Chyavan M C</title>
     <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
 </head>
-<body id="DWQo">
+<body id="DWQo" class="font-sans">
+    <!-- BACKGROUND -->
     <canvas id="qfux"></canvas>
-    <p>This is a portfolio template I am building for myself</p>
+
+    <!-- NAVBAR -->
+    <nav id="LWCp" class="navbar navbar-expand-lg sticky-top navbar-bg">
+        <div class="container">
+            <a class="navbar-brand navbar-fg font-theme" onclick="selectDeselectNavBar(null)" href="#">Chyavan</a>
+            <button class="navbar-toggler navbar-fg" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon navbar-fg"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ml-auto navbar-right">
+                    <li class="nav-item">
+                        <a id="ZQJw" class="navbar-a-active nav-link" onclick="selectDeselectNavBar(this.id)" href="#">
+                            Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="bIdh" class="navbar-a nav-link" onclick="selectDeselectNavBar(this.id)" href="#about">
+                            About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="ably" class="navbar-a nav-link" onclick="selectDeselectNavBar(this.id)" href="#projects">
+                            Projects</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- HOME -->
+    <div id="home">
+    </div>
+
+    <!-- ABOUT -->
+    <div id="about">
+    </div>
+
+    <!-- PROJECTS -->
+    <div id="projects">
+    </div>
     
     <!-- Javascript Files -->
     <script src="assets/js/main.js"></script>

@@ -1,4 +1,11 @@
-/* Canvas background */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;500;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+
+/* https://coolors.co/ffde66-6eb34d-36558f-1d2330-fdfdfd */
+/* https://mycolor.space/gradient?ori=to+right+bottom&hex=%2336558F&hex2=%236BB34D&sub=1 */
+
+/* START - Canvas background */
 #qfux {
     position:absolute;
     left:0;
@@ -6,13 +13,59 @@
     z-index:-1;
     background-blend-mode: screen;
 }
+/* END - Canvas background */
 
+/* START - Body */
 #DWQo {
     background-image: linear-gradient(to right bottom, #36558f, #0073a7, #008ea0, #00a47c, #6bb34d);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 95vh;
 }
+/* END - Body */
 
-/* https://coolors.co/ffde66-6eb34d-36558f-1d2330-fdfdfd */
-/* https://mycolor.space/gradient?ori=to+right+bottom&hex=%2336558F&hex2=%236BB34D&sub=1 */
+/* START - NavBar */
+.navbar-bg {
+    background-color: #1d2330;
+}
+
+.navbar-a, .navbar-fg, .navbar-a:active, .navbar-fg:active, .navbar-a-active:active {
+    color: #fdfdfd;
+}
+
+.navbar-a:hover, .navbar-fg:hover {
+    color: #fdfdfd;
+    transform: translateY(-0.05rem) scale(1.01);
+    transition: transform .1s;
+}
+
+.navbar-a-active:hover {
+    color: #ffde66;
+    transform: translateY(-0.05rem) scale(1.01);
+    transition: transform .1s;
+}
+
+.navbar-a-active {
+    color: #ffde66;
+}
+/* END - NavBar */
+
+/* START - Fonts */
+.font-serif {
+    font-family: 'Arvo', serif;
+}
+
+.font-sans {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.font-theme {
+    font-family: 'Galada', cursive;
+}
+/* END - Fonts */
+
+/* START - Other */
+.divider {
+    background-color: #FFF4;
+}
+/* END - Other */
