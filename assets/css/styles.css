@@ -1,13 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;500;600;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 /* https://coolors.co/ffde66-6eb34d-36558f-1d2330-fdfdfd */
 /* https://mycolor.space/gradient?ori=to+right+bottom&hex=%2336558F&hex2=%236BB34D&sub=1 */
 
+/* START - Global */
+html {
+    scroll-behavior: smooth;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.section-padding {
+    padding-top: 5rem;
+    margin-top: -4rem;
+    padding-bottom: 1rem;
+}
+/* END - Global */
+
 /* START - Canvas background */
 #qfux {
-    position:absolute;
+    position: fixed;
     left:0;
     top:0;
     z-index:-1;
@@ -17,10 +34,11 @@
 
 /* START - Body */
 #DWQo {
-    background-image: linear-gradient(to right bottom, #36558f, #0073a7, #008ea0, #00a47c, #6bb34d);
+    background-image: linear-gradient(to right bottom, #36558f, #00609b, #006ba4, #0076a8, #0080a8, #008aa4, #00939b, #009b8f, #00a280, #00a970, #41af5e, #6bb34d);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 95vh;
+    background-attachment: fixed;
 }
 /* END - Body */
 
@@ -62,6 +80,10 @@
 .font-theme {
     font-family: 'Galada', cursive;
 }
+
+.font-digital {
+    font-family: 'Press Start 2P', cursive;
+}
 /* END - Fonts */
 
 /* START - Other */
@@ -93,6 +115,12 @@
     50%     {top: 2rem}
     100%    {top: 2rem}
 }
+@-webkit-keyframes scroller {
+    0%      {top: -2rem}
+    25%     {top: 0rem}
+    50%     {top: 2rem}
+    100%    {top: 2rem}
+}
 
 .subtitle {
     position: absolute;
@@ -104,7 +132,7 @@
     position: relative;
     overflow: hidden;
     margin: .5rem 0;
-    height: 1.5rem;
+    height: 1.8rem;
 }
 
 .delay-1 {
@@ -122,4 +150,99 @@
 .delay-4 {
     animation-delay: 6s;
 }
+
+.scroller {
+    padding-bottom: 1rem;
+}
+
+.arrows {
+	width: 2rem;
+    height: 2.5rem;
+}
+
+.arrows path {
+	stroke: #1d2330;
+	fill: transparent;
+	stroke-width: 0.1rem;	
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+    0% {opacity:0}
+    40% {opacity:1}
+    80% {opacity:0}
+    100% {opacity:0}
+}
+@-webkit-keyframes arrow
+{
+    0% {opacity:0}
+    40% {opacity:1}
+    80% {opacity:0}
+    100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s;
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s;
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s;
+}
+
+.a-media {
+    font-size: 1.25rem;
+    color: #1d2330;
+}
+
+.a-media:hover {
+    color: #FFF;
+}
 /* END - Home */
+
+/* START - Code Block */
+.code-block {
+    padding: 1rem;
+    min-height: 1.5rem;
+    background: #222E;
+    color: #FFF;
+}
+
+.blinker {
+    width: .5rem;
+    height: 1.1rem;
+    margin-bottom: 0.1rem;
+    background-color: #FFF;
+	animation: blink 1s infinite;
+	-webkit-animation: blink 1s infinite; 
+}
+
+.code-space {
+    margin-left: .2rem;
+}
+
+@keyframes blink
+{
+    0% {opacity:1}
+    20% {opacity:1}
+    50% {opacity:0}
+    80% {opacity:1}
+    100% {opacity:1}
+}
+@-webkit-keyframes blink
+{
+    0% {opacity:1}
+    20% {opacity:1}
+    50% {opacity:0}
+    80% {opacity:1}
+    100% {opacity:1}
+}
+/* END - Code Block */
