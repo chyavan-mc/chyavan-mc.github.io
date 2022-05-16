@@ -30,7 +30,6 @@ class Dot {
             ctx.arc(this.xCoord, this.yCoord, radius, 0, 2 * Math.PI);
             ctx.fill();
             for (let i = 0; i < this.neighbors.length; i++) {
-                console.log(this.neighbors[i]);
                 if (this.neighbors[i].visible) {
                     ctx.strokeStyle = calculateOpacity((this.xCoord + this.neighbors[i].xCoord) / 2, (this.yCoord + this.neighbors[i].yCoord) / 2, 0.06, 0.15);
                     ctx.lineWidth = 0.5 * radius;
