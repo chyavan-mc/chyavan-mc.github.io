@@ -1,9 +1,9 @@
 const ids = {
     navbar: "LWCp",
     nav_sections: {
-        "home": "ZQJw",     // Home
-        "about": "bIdh",     // About
-        "projects": "ably",     // Projects
+        "home": "ZQJw",             // Home
+        "about": "bIdh",            // About
+        "qualifications": "ably",   // Projects
         // "contact": "6c6f",     // Contact
     },
     scroll: "8f78"
