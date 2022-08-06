@@ -121,7 +121,7 @@ html {
 .subtitle {
     position: absolute;
     top: -2rem;
-    animation: scroller 8s ease-in-out infinite;
+    animation: scroller 10s ease-in-out infinite;
     color: #fff;
 }
 
@@ -146,6 +146,10 @@ html {
 
 .delay-4 {
     animation-delay: 6s;
+}
+
+.delay-5 {
+    animation-delay: 8s;
 }
 
 .scroller {
