@@ -82,6 +82,10 @@ html {
     font-family: 'Press Start 2P', cursive;
     font-size: 70%;
 }
+
+.white-text {
+    color: #FFF;
+}
 /* END - Fonts */
 
 /* START - Other */
