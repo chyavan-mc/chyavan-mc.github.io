@@ -33,7 +33,9 @@ html {
 
 /* START - Body */
 #DWQo {
-    background-image: linear-gradient(to right bottom, #36558f, #00609b, #006ba4, #0076a8, #0080a8, #008aa4, #00939b, #009b8f, #00a280, #00a970, #41af5e, #6bb34d);
+    background: #43cea2;
+    background: -webkit-linear-gradient(to left top, #43cea2, #185a9d);
+    background: linear-gradient(to left top, #43cea2, #185a9d);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 95vh;

@@ -25,13 +25,13 @@ class Dot {
 
     draw() {
         if (this.visible) {
-            ctx.fillStyle = calculateOpacity(this.xCoord, this.yCoord, 0.06, 0.2);
+            ctx.fillStyle = calculateOpacity(this.xCoord, this.yCoord, 0.04, 0.25);
             ctx.beginPath();
             ctx.arc(this.xCoord, this.yCoord, radius, 0, 2 * Math.PI);
             ctx.fill();
             for (let i = 0; i < this.neighbors.length; i++) {
                 if (this.neighbors[i].visible) {
-                    ctx.strokeStyle = calculateOpacity((this.xCoord + this.neighbors[i].xCoord) / 2, (this.yCoord + this.neighbors[i].yCoord) / 2, 0.06, 0.2);
+                    ctx.strokeStyle = calculateOpacity((this.xCoord + this.neighbors[i].xCoord) / 2, (this.yCoord + this.neighbors[i].yCoord) / 2, 0.04, 0.25);
                     ctx.lineWidth = 0.5 * radius;
                     ctx.beginPath();
                     ctx.moveTo(this.xCoord, this.yCoord);
@@ -83,7 +83,7 @@ function drawMorse() {
                 xCoord = 0;
                 yCoord += size;
             }
-            ctx.fillStyle = calculateOpacity(xCoord + size, yCoord, 0.03, 0.15);
+            ctx.fillStyle = calculateOpacity(xCoord + size, yCoord, 0.025, 0.3);
             rect = ctx.roundRect(xCoord, yCoord, size, size, 0.15 * size).fill();
             xCoord += size;
         }
@@ -93,7 +93,7 @@ function drawMorse() {
                 xCoord = 0;
                 yCoord += size;
             }
-            ctx.fillStyle = calculateOpacity(xCoord + size, yCoord, 0.03, 0.15);
+            ctx.fillStyle = calculateOpacity(xCoord + size, yCoord, 0.025, 0.3);
             rect = ctx.roundRect(xCoord, yCoord, 3 * size, size, 0.15 * size).fill();
             xCoord += 3 * size;
         }
