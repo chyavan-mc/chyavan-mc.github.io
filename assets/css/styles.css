@@ -167,12 +167,17 @@ html {
     height: 2.5rem;
 }
 
+.blurred-arrows {
+    filter: blur(.15rem);
+    stroke: #448 !important;
+}
+
 .arrows path {
-	stroke: #1d2330;
+	stroke: #FFF;
 	fill: transparent;
 	stroke-width: 0.1rem;	
 	animation: arrow 2s infinite;
-	-webkit-animation: arrow 2s infinite; 
+	-webkit-animation: arrow 2s infinite;
 }
 
 @keyframes arrow
@@ -283,4 +288,89 @@ html {
     min-height:300px;
     background: #0008;
 }
+
+.timeline-left-top {
+    display: flex;
+    border-right: .15rem solid white;
+    margin-right: 2rem;
+    padding: 2.5rem 0;
+    margin-top: 2.5rem;
+}
+
+.timeline-left-mid {
+    display: flex;
+    border-right: .15rem solid white;
+    margin-right: 2rem;
+    padding: .8rem 0;
+}
+
+.timeline-right-top {
+    display: flex;
+    border-right: .15rem solid white;
+    margin-right: 2rem;
+    padding: 1.5rem 0;
+    margin-top: 2.5rem;
+}
+
+.timeline-right-bottom {
+    display: flex;
+    border-right: .15rem solid white;
+    margin-right: 2rem;
+    padding: 1.5rem 0;
+    margin-bottom: 2.5rem;
+}
+
+.timeline-left-bottom {
+    display: flex;
+    border-right: .15rem solid white;
+    margin-right: 2rem;
+    padding: 2.5rem 0;
+    margin-bottom: 2.5rem;
+}
+
+.timeline-dot-blur {
+    position: absolute;
+    top: 2rem;
+    right: 2.5rem;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 1rem;
+    background: #FFF4;
+    filter: blur(1px);
+}
+
+.timeline-dot-mid {
+    position: absolute;
+    top: 8.2rem;
+    right: 2.7rem;
+    height: .6rem;
+    width: .6rem;
+    border-radius: 1rem;
+    background: #FFF;
+}
+
+.timeline-dot-top {
+    position: absolute;
+    top: 2.2rem;
+    right: 2.7rem;
+    height: .6rem;
+    width: .6rem;
+    border-radius: 1rem;
+    background: #FFF;
+}
+
+.timeline-dot-bottom {
+    position: absolute;
+    bottom: 2.2rem;
+    right: 2.7rem;
+    height: .6rem;
+    width: .6rem;
+    border-radius: 1rem;
+    background: #FFF;
+}
+
+.timeline-text {
+    padding: 2rem 0;
+}
+
 /* END - Qualifications*/
