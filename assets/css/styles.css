@@ -167,11 +167,6 @@ html {
     height: 2.5rem;
 }
 
-.blurred-arrows {
-    filter: blur(.15rem);
-    stroke: #448 !important;
-}
-
 .arrows path {
 	stroke: #FFF;
 	fill: transparent;
@@ -259,6 +254,56 @@ html {
     100% {opacity:1}
 }
 /* END - Code Block */
+
+
+/* START - Qualifications */
+.button-resume {
+    vertical-align: middle;
+    border-radius: 0.25rem;
+    background-color: #20c997;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.2rem;
+    width: 10rem;
+    padding: 0.2rem 1.5rem;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0.5rem 0;
+}
+
+.button-resume span {
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button-resume span:after {
+    content: '\2B73';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -0.8rem;
+    transition: 0.5s;
+    font-size: 1.1rem;
+}
+
+.button-resume:hover span {
+    padding-right: 1rem;
+}
+
+.button-resume:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.button-resume-div {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+/* END - Code Block */
+
 
 /* START - Qualifications */
 .tabs {
