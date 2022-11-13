@@ -3,6 +3,7 @@ const ids = {
     nav_sections: {
         "home": "ZQJw",             // Home
         "about": "bIdh",            // About
+        "skills": "X2dm",           // Skills
         "qualifications": "ably",   // Projects
         // "contact": "6c6f",     // Contact
     },
