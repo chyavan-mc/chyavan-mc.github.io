@@ -10,6 +10,14 @@
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X30D5QPRET"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-X30D5QPRET');
+    </script>
     <title>Chyavan M Chandrashekar</title>
 </head>
 <body id="DWQo" class="font-sans">
@@ -45,9 +53,13 @@
                             Skills</a>
                     </li>
                     <li class="nav-item">
+                        <a id="N2nK" class="navbar-a nav-link" onclick="selectDeselectNavBar(this.id)" href="#projects">
+                            Projects</a>
+                    </li>
+                    <li class="nav-item">
                         <a id="ably" class="navbar-a nav-link" onclick="selectDeselectNavBar(this.id)"
-                            href="#qualifications">
-                            Qualifications</a>
+                            href="#background">
+                            Background</a>
                     </li>
                 </ul>
             </div>
@@ -158,7 +170,7 @@
             skills I built over two years of working as a Software Developer.
         </div>
         <a href="assets/files/Resume_Chyavan.pdf" target="_blank" style="text-decoration: none;">
-            <button class="button-resume"><span>Resume </span></button></div>
+            <button class="button-resume"><span>Resume </span></button>
         </a>
     </div>
 
@@ -351,10 +363,17 @@
         </div>
     </div>
 
-    <!-- EDUCATION AND WORK -->
-    <div id="qualifications" class="container section-padding">
+    <!-- PROJECTS -->
+    <div id="projects" class="container section-padding">
         <div class="font-digital d-flex align-items-center">
-            <h2>/QUALIFICATIONS</h2>
+            <h2>/PROJECTS</h2>
+        </div>
+    </div>
+
+    <!-- EDUCATION AND WORK -->
+    <div id="background" class="container section-padding">
+        <div class="font-digital d-flex align-items-center">
+            <h2>/BACKGROUND</h2>
         </div>
 
         <div class="row white-text">
@@ -413,9 +432,6 @@
             </div>
         </div>
     </div>
-
-    <!-- PROJECTS -->
-    <div style="height:20rem;"></div>
 
     <!-- Javascript Files -->
     <script src="assets/js/main.js"></script>

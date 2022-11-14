@@ -4,7 +4,8 @@ const ids = {
         "home": "ZQJw",             // Home
         "about": "bIdh",            // About
         "skills": "X2dm",           // Skills
-        "qualifications": "ably",   // Projects
+        "projects": "N2nK",         // Projects
+        "background": "ably",       // Qualifications
         // "contact": "6c6f",     // Contact
     },
     scroll: "8f78",

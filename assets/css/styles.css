@@ -17,7 +17,27 @@ html {
 .section-padding {
     padding-top: 5rem;
     margin-top: -4rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2.5rem;
+}
+
+body {
+    overflow: overlay;
+}
+
+::-webkit-scrollbar {
+    width: .5rem;
+}
+
+::-webkit-scrollbar-track {
+    background: #0002;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #fffa;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #fff;
 }
 /* END - Global */
 
@@ -262,7 +282,7 @@ html {
     border-radius: 0.25rem;
     background-color: #20c997;
     border: none;
-    color: #FFF;
+    color: #1d2330;
     text-align: center;
     font-size: 1.2rem;
     width: 10rem;
@@ -276,6 +296,10 @@ html {
     cursor: pointer;
     position: relative;
     transition: 0.5s;
+}
+
+.button-resume:focus {
+    outline: 0 !important;
 }
 
 .button-resume span:after {
@@ -395,6 +419,7 @@ html {
     border-radius: .5rem;
     text-align: center;
     margin-bottom: 1rem;
+    margin-top: 1.5rem;
 }
 
 .qual_content {
