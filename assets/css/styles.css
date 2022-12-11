@@ -429,7 +429,7 @@ body {
 }
 
 .qual_content {
-    min-height: 8rem;
+    min-height: 9.5rem;
 }
 
 .qual_content_right {
@@ -457,7 +457,7 @@ body {
     font-size: .7rem;
     border-radius: 5rem;
     font-weight: 500;
-    background: #2280dd;
+    background: #1180d4;
     color: #FFF;
 }
 
@@ -465,7 +465,28 @@ body {
     text-align: justify;
 }
 
-/* .card-text {
-    min-height: 8rem;
-} */
+.card-text {
+    min-height: 10rem;
+}
 /* END - Projects */
+
+
+/* START - Pet Projects */
+.btn-active {
+    color: #1d2330;
+    background-color: #20c997;
+    border-bottom: 0;
+    border-top: 0;
+    border-radius: 0;
+}
+
+.btn-inactive {
+    color: #fff;
+    background-color: #1d2330AA;
+    border-bottom: 0.5px solid #1d233088;
+    border-top: 0.5px solid #1d233088;
+    border-radius: 0;
+}
+
+iframe { display:block; }
+/* END - Pet Projects */
