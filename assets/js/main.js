@@ -1,13 +1,13 @@
 const ids = {
     navbar: "LWCp",
     nav_sections: {
-        "home": "ZQJw",             // Home
-        "about": "bIdh",            // About
-        "skills": "X2dm",           // Skills
-        "projects": "N2nK",         // Projects
-        "fun-stuff": "igN5",         // Pet Projects
-        "background": "ably",       // Qualifications
-        // "contact": "6c6f",     // Contact
+        "home": "ZQJw",                 // Home
+        "about": "bIdh",                // About
+        "skills": "X2dm",               // Skills
+        "projects": "N2nK",             // Projects
+        "fun-stuff": "igN5",            // Pet Projects
+        "background": "ably",           // Qualifications
+        // "contact": "6c6f",           // Contact
     },
     scroll: "8f78",
     pet_projects: {
@@ -51,7 +51,7 @@ function fitToContainer(iframe){
     iframe.width  = iframe.offsetWidth;
     iframe.height = 0.98*iframe.offsetHeight;
 }
-let iframe = document.getElementById("26ah");
+let iframe = document.getElementById("PPQN");
 fitToContainer(iframe);
 iframe.src = Object.values(ids.pet_projects)[0];
 
