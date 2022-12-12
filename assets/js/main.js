@@ -11,17 +11,18 @@ const ids = {
     },
     scroll: "8f78",
     pet_projects: {
-        "DWMl": "https://chyavan-mc.github.io/Creative-Coding/6_Raytracing.html",           // Ray Tracing
-        "0VNu": "https://chyavan-mc.github.io/Creative-Coding/11_Starfield.html",           // Star Field
-        "0IhW": "https://chyavan-mc.github.io/Creative-Coding/15_fireworks.html",           // Fireworks
-        "naLb": "https://chyavan-mc.github.io/Creative-Coding/3_Rain.html",                 // Rain
-        "m87K": "https://chyavan-mc.github.io/Creative-Coding/5_Moon.html",                 // Moon
-        "ol5f": "https://chyavan-mc.github.io/Creative-Coding/13_cubes.html",               // Cubes
-        "MkPr": "https://chyavan-mc.github.io/Creative-Coding/1_Lineart.html",              // Line Art
-        "Wqxe": "https://chyavan-mc.github.io/Creative-Coding/time3.html",                  // Time Cube
-        "B80J": "https://chyavan-mc.github.io/Creative-Coding/4_LineartExtended.html",      // Line Art (Psych Edition)
-        "rSyP": "https://chyavan-mc.github.io/Creative-Coding/9_MultiPendulum.html",        // Pendulum
-        "jaRI": "https://chyavan-mc.github.io/Creative-Coding/14_life.html"                 // Game of Life
+        "DWMl" : "https://chyavan-mc.github.io/Creative-Coding/6_Raytracing.html",           // Ray Tracing
+        "0VNu" : "https://chyavan-mc.github.io/Creative-Coding/14_life.html",                // Game of Life
+        "0IhW" : "https://chyavan-mc.github.io/Creative-Coding/linedance.html",              // Line Dance - Attractors
+        "naLb" : "https://chyavan-mc.github.io/Creative-Coding/4_LineartExtended.html",      // Line Art
+        "m87K" : "https://chyavan-mc.github.io/Creative-Coding/sinCircle.html",              // Sine Circle
+        "ol5f" : "https://chyavan-mc.github.io/Creative-Coding/particles.html",              // Particles
+        "MkPr" : "https://chyavan-mc.github.io/Creative-Coding/squares.html",                // Square Waves
+        "Wqxe" : "https://chyavan-mc.github.io/Creative-Coding/13_cubes.html",               // Cubes
+        "B80J" : "https://chyavan-mc.github.io/Creative-Coding/3_Rain.html",                 // Rain
+        "rSyP" : "https://chyavan-mc.github.io/Creative-Coding/11_Starfield.html",           // Warp Drive
+        "jaRI" : "https://chyavan-mc.github.io/Creative-Coding/5_Moon.html",                 // Moon
+        "rFtH" : "https://chyavan-mc.github.io/Creative-Coding/15_fireworks.html",           // Fireworks
     }
 }
 
