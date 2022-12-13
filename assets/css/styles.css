@@ -242,13 +242,6 @@ body {
 /* END - Home */
 
 /* START - Code Block */
-.code-block {
-    padding: 1rem;
-    min-height: 1.5rem;
-    background: #222E;
-    color: #FFF;
-}
-
 .blinker {
     width: .5rem;
     height: 1.1rem;
@@ -300,91 +293,66 @@ body {
 /* END - About */
 
 /* START - SKILLS */
-.semi-donut{
-    --percentage: 0;
-    --fill: #ff0;
-    width: 10rem;
-    height: 5rem;
-    position: relative;
-    color: #fff;
-    font-size: 1.5rem;
-    font-weight: 600;
-    overflow: hidden;
-    color: var(--fill);
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    box-sizing : border-box;
-}
-
-.semi-donut:after{
-    content: '';
-    width: 10rem;
-    height: 10rem;
-    border: 20px solid;
-    border-color : #0004 #0004 var(--fill) var(--fill);
-    position: absolute;
-    border-radius: 50%;
-    left: 0;
-    top: 0;
-    box-sizing : border-box;
-    transform: rotate( calc( 1deg * ( -45 + var(--percentage) * 1.8 ) ) );
-    animation : fillAnimation 1s ease-in-out;
-}
-
-.semi-donut-2{
-    --percentage: 0;
-    --fill: #ff0;
-    --fill2: #0004;
-    --duration: 1s;
-    width: 10rem;
-    height: 5rem;
-    position: relative;
-    color: #fff;
-    font-size: 1.5rem;
-    font-weight: 600;
-    overflow: hidden;
-    color: var(--fill);
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    box-sizing : border-box;
-}
-
-.semi-donut-2:after{
-    content: '';
-    width: 10rem;
-    height: 10rem;
-    border: 20px solid;
-    border-color : var(--fill2) var(--fill2) var(--fill) var(--fill);
-    position: absolute;
-    border-radius: 50%;
-    left: 0;
-    top: 0;
-    box-sizing : border-box;
-    transform: rotate( calc( 1deg * ( -45 + var(--percentage) * 1.8 ) ) );
-    animation : fillAnimation var(--duration) ease-in-out;
-}
-
-
-@keyframes fillAnimation{
-    0%  {   transform : rotate(-45deg); }
-    100% {   transform:  rotate( calc( 1deg * ( -45 + var(--percentage) * 1.8 ) ) ); }
-}
-
 .skill-title {
     display: flex;
     justify-content: center;
     padding: 1rem;
 }
 
-.skill {
-    padding-top: 1rem;
-    padding-bottom: 2rem;
+.parent-donut-shade {
+    display: flex;
+    position:absolute;
+    mix-blend-mode: multiply;
 }
 
-.padding-top-1 {
-    padding-top: 1rem;
+.parent-donut {
+    display: flex;
+    mix-blend-mode: lighten;
+}
+
+.progress-donut {
+    --percentage : 0;
+    position: relative;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(#1dc997 calc(var(--percentage)*3.6deg), #000 0deg);
+}
+
+.progress-donut::before {
+    content: "";
+    position: absolute;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    background: #000;
+}
+
+.progress-donut-content {
+    position: relative;
+}
+
+.progress-donut-shade {
+    position: relative;
+    height: 8.4rem;
+    width: 8.4rem;
+    background: conic-gradient(#aaa 0deg, #aaa 0deg);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-donut-shade::before {
+    content: "";
+    position: absolute;
+    height: 5.6rem;
+    width: 5.6rem;
+    border-radius: 50%;
+    background: #fff;
 }
 /* END - SKILLS */
 
@@ -480,3 +448,28 @@ iframe { display:block; }
     border-bottom-right-radius: .5rem;
 }
 /* END - Pet Projects */
+
+@media (max-width: 576px) {
+    .col-sm-3, col-sm {
+        padding-bottom: 2rem;
+    }
+
+    .bbl {
+        border-radius: 0;
+    }
+
+    .btl {
+        border-top-left-radius: .5rem;
+        border-top-right-radius: .5rem;
+    }
+
+    #PPQN {
+        border-radius: 0;
+        border-bottom-left-radius: .5rem;
+        border-bottom-right-radius: .5rem;
+    }
+
+    #dufj {
+        height: 80vh;
+    }
+}
