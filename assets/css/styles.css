@@ -449,6 +449,12 @@ iframe { display:block; }
 }
 /* END - Pet Projects */
 
+@media (max-width: 360px) {
+    .section-title {
+        font-size: 1.5rem;
+    }
+}
+
 @media (max-width: 576px) {
     .col-sm-3, col-sm {
         padding-bottom: 2rem;
