@@ -400,15 +400,6 @@ body {
     color: #FFF;
 }
 
-.btn-project-inv {
-    padding: .25rem .5rem;
-    font-size: .7rem;
-    border-radius: 5rem;
-    font-weight: 700;
-    background: #FFF;
-    color: #1d2330;
-}
-
 .card-body {
     text-align: justify;
 }
