@@ -112,6 +112,10 @@ body {
 .white-text {
     color: #FFF;
 }
+
+.center-text {
+    text-align: center;
+}
 /* END - Fonts */
 
 /* START - Other */

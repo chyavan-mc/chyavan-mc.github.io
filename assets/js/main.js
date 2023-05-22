@@ -3,9 +3,9 @@ const ids = {
     nav_sections: {
         "home": "ZQJw",                 // Home
         "about": "bIdh",                // About
-        "skills": "X2dm",               // Skills
         "projects": "N2nK",             // Projects
         "fun-stuff": "igN5",            // Pet Projects
+        "skills": "X2dm",               // Skills
         "background": "ably",           // Qualifications
         // "contact": "6c6f",           // Contact
     },
