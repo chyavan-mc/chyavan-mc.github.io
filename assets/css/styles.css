@@ -26,14 +26,16 @@ body {
 
 ::-webkit-scrollbar {
     width: .5rem;
+    background: #1d2330;
 }
 
 ::-webkit-scrollbar-track {
-    background: #0002;
+    background: #fff1;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #fffa;
+    border-radius: .2rem;
+    background: #20c997;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -483,3 +485,22 @@ iframe { display:block; }
         height: 80vh;
     }
 }
+
+/* START - Certificates */
+.cert-card {
+    background: #1d2330AA;
+}
+
+.cert-img {
+    height: auto;
+    width: 100%;
+    border-radius: 0.25rem;
+}
+
+.cert-subtitle {
+    font-size: 0.9rem;
+    padding: 0.1rem 0.5rem 0.1rem 0;
+    font-weight: 400;
+}
+
+/* END - Certificates */

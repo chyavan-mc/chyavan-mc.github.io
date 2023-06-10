@@ -7,7 +7,7 @@ const ids = {
         "fun-stuff": "igN5",            // Pet Projects
         "skills": "X2dm",               // Skills
         "background": "ably",           // Qualifications
-        // "contact": "6c6f",           // Contact
+        "certificates": "4IHv",         // Certificates
     },
     scroll: "8f78",
     pet_projects: {
