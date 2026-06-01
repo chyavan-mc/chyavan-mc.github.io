@@ -433,7 +433,7 @@ body {
     border-radius: 0;
 }
 
-iframe { display:block; }
+iframe { display:block; border: none; overflow: hidden; }
 
 .interactive {
     font-weight:200;
